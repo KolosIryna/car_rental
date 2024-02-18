@@ -86,7 +86,7 @@ const FormFilter = ({ onFilterChange }) => {
           </div>
         </div>
       </div>
-      <button type="submit" className="btn" onClick={handleSubmit}>
+      <button type="submit" className="btn">
         Search
       </button>
     </StyledFormFilter>

@@ -54,4 +54,35 @@ export const StyledModal = styled.div`
     border: 0;
     border-radius: 12px;
   }
+
+  .text {
+    margin-top: 14px;
+  }
+
+  .text2 {
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+  }
+
+  .text3 {
+    color: #12141780;
+    font-size: 12px;
+  }
+
+  .conteiner1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .text-conteiner {
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    padding: 7px 14px;
+    border-radius: 35px;
+    background: #f9f9f9;
+  }
 `;

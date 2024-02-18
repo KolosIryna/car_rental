@@ -4,7 +4,7 @@ export const StyledFormFilter = styled.form`
   height: 74px;
   width: 859px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 18px;
   margin-top: 50px;
   margin-bottom: 50px;

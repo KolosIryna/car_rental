@@ -15,21 +15,17 @@ const CardCar = ({ car, openModal, isFavorite, toggleFavorite }) => {
           height="268px"
         />
       </div>
-
       <div className="name-car">
         <p>
-          {car.make} {car.model}, {car.year} {car.rentalPrice}
+          {car.make} <span className="span-name">{car.model}</span>, {car.year}
         </p>
+        <p>{car.rentalPrice}</p>
       </div>
       <div className="blok">
-        <p>{car.address}</p>
-        <p>{car.rentalCompany}</p>
-        <p>{car.accessories}</p>
+        <p>{car.address}</p>|<p>{car.rentalCompany}</p>|<p>{car.accessories}</p>
       </div>
       <div className="blok">
-        <p>{car.type}</p>
-        <p>{car.id}</p>
-        <p>{car.functionalities}</p>
+        <p>{car.type}</p>|<p>{car.id}</p>|<p>{car.functionalities}</p>
       </div>
 
       <button onClick={() => openModal(car)} className="btnLearn">

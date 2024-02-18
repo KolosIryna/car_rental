@@ -8,6 +8,13 @@ export const StyledFavoritesPage = styled.div`
   margin-right: auto;
   align-items: center;
 
+  .title {
+    font-size: 28px;
+    color: #3470ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .text {
     font-size: 28px;
     color: #3470ff;

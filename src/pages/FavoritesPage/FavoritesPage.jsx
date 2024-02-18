@@ -18,17 +18,9 @@ const FavoritesPage = () => {
     fetchFavoriteCars();
   }, []);
 
-  const removeFavorite = id => {
-    const updatedFavorites = favoriteCars.filter(car => car.id !== id);
-    setFavoriteCars(updatedFavorites);
-    localStorage.setItem(
-      'favorites',
-      JSON.stringify(updatedFavorites.map(car => car.id))
-    );
-  };
-
   return (
     <StyledFavoritesPage>
+      <h1 className="title">Favorite Cars</h1>
       {favoriteCars.length ? (
         <ul className="gallery">
           {favoriteCars.map(car => (
@@ -36,7 +28,7 @@ const FavoritesPage = () => {
               key={car.id}
               car={car}
               isFavorite={() => true}
-              toggleFavorite={() => removeFavorite(car.id)}
+              toggleFavorite={() => {}}
             />
           ))}
         </ul>

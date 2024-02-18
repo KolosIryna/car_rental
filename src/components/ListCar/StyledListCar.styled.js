@@ -67,6 +67,9 @@ export const StyledListCard = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
 
     &:not(:last-child) {
       margin-bottom: 4px;
@@ -94,6 +97,9 @@ export const StyledListCard = styled.div`
     }
   }
 
+  .span-name {
+    color: #3470ff;
+  }
   .load-more {
     background-color: transparent;
     border-width: 0px;

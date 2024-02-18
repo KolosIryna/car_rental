@@ -27,6 +27,16 @@ export const carSlice = createSlice({
     setFilter: (state, action) => {
       state.filter = action.payload;
     },
+    addToFavorites: (state, action) => {
+      const carId = action.payload;
+      if (!state.favorites.includes(carId)) {
+        state.favorites.push(carId);
+      }
+    },
+    removeFromFavorites: (state, action) => {
+      const carId = action.payload;
+      state.favorites = state.favorites.filter(id => id !== carId);
+    },
   },
   extraReducers: builder =>
     builder
@@ -44,5 +54,6 @@ export const carSlice = createSlice({
       }),
 });
 
-export const { setFilter } = carSlice.actions;
+export const { setFilter, addToFavorites, removeFromFavorites } =
+  carSlice.actions;
 export const carReducer = carSlice.reducer;

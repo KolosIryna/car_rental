@@ -31,31 +31,29 @@ const Modal = ({ onClose, car }) => {
         />
         <div className="name-car">
           <p>
-            {car.make} {car.model}, {car.year} {car.rentalPrice}
+            {car.make} <span className="span-name">{car.model}</span>,{' '}
+            {car.year}
           </p>
         </div>
         <div className="blok">
-          <p>{car.address}</p>
-          <p>{car.rentalCompany}</p>
-          <p>{car.accessories}</p>
+          <p>{car.address}</p> |<p>{car.rentalCompany}</p>|
+          <p>{car.accessories}</p>|
         </div>
         <div className="blok">
-          <p>{car.type}</p>
-          <p>{car.id}</p>
-          <p>{car.functionalities}</p>
+          <p>{car.type}</p>|<p>{car.id}</p>|<p>{car.functionalities}</p>|
         </div>
-        <div>
+        <div className="text">
           <p>{car.description}</p>
         </div>
         <div>
-          <h2>Accessories and functionalities:</h2>
+          <h3 className="text2">Accessories and functionalities:</h3>
           <div>
-            <p>
+            <p className="text3">
               <span>{car.functionalities[0]}</span>|
               <span>{car.functionalities[1]}</span>|
               <span>{car.functionalities[2]}</span>
             </p>
-            <p>
+            <p className="text3">
               <span>{car.accessories[0]}</span>|
               <span>{car.accessories[1]}</span>|
               <span>{car.accessories[2]}</span>
@@ -63,15 +61,16 @@ const Modal = ({ onClose, car }) => {
           </div>
         </div>
         <div>
-          <h2>Rental Conditions:</h2>
-          <div>
-            <p>{car.rentalConditions}</p>
-
-            <p>
-              Mileage: <span>{car.mileage}</span>
+          <h3 className="text2">Rental Conditions:</h3>
+          <div className="conteiner1">
+            <p className="text-conteiner">{car.rentalConditions}</p>
+            <p className="text-conteiner">
+              Mileage:
+              <span className="span-name">{car.mileage}</span>
             </p>
-            <p>
-              Price: <span>{car.rentalPrice}$</span>
+            <p className="text-conteiner">
+              Price:{' '}
+              <span className="span-name">{car.rentalPrice.slice(1)}$</span>
             </p>
           </div>
         </div>
