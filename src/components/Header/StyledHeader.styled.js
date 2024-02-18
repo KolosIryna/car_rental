@@ -1,8 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledHeader = styled.div`
   height: 80px;
+  margin: 0 auto;
   padding: 10px 128px;
+  max-width: 1600px;
   display: flex;
   align-items: center;
   background: linear-gradient(#3470ff, #f1f5ff);
