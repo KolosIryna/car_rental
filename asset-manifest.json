@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.a7a0dac1.css",
-    "main.js": "/react-homework-template/static/js/main.697d4f92.js",
-    "static/media/znachki.jpg": "/react-homework-template/static/media/znachki.2153a942811e37ba963a.jpg",
-    "static/media/car.png": "/react-homework-template/static/media/car.f39582fd01910c4aef0c.png",
-    "index.html": "/react-homework-template/index.html",
-    "static/media/normal.svg": "/react-homework-template/static/media/normal.282d936f414f4c6884ab9306a91dad67.svg",
-    "static/media/active.svg": "/react-homework-template/static/media/active.97847e9195943f61800c97807e735d4f.svg",
-    "static/media/close.svg": "/react-homework-template/static/media/close.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
-    "main.a7a0dac1.css.map": "/react-homework-template/static/css/main.a7a0dac1.css.map",
-    "main.697d4f92.js.map": "/react-homework-template/static/js/main.697d4f92.js.map"
+    "main.css": "/car_rental/static/css/main.a7a0dac1.css",
+    "main.js": "/car_rental/static/js/main.583067a3.js",
+    "static/media/znachki.jpg": "/car_rental/static/media/znachki.2153a942811e37ba963a.jpg",
+    "static/media/car.png": "/car_rental/static/media/car.f39582fd01910c4aef0c.png",
+    "index.html": "/car_rental/index.html",
+    "static/media/normal.svg": "/car_rental/static/media/normal.282d936f414f4c6884ab9306a91dad67.svg",
+    "static/media/active.svg": "/car_rental/static/media/active.97847e9195943f61800c97807e735d4f.svg",
+    "static/media/close.svg": "/car_rental/static/media/close.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
+    "main.a7a0dac1.css.map": "/car_rental/static/css/main.a7a0dac1.css.map",
+    "main.583067a3.js.map": "/car_rental/static/js/main.583067a3.js.map"
   },
   "entrypoints": [
     "static/css/main.a7a0dac1.css",
-    "static/js/main.697d4f92.js"
+    "static/js/main.583067a3.js"
   ]
 }
